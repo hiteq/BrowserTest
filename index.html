@@ -2,23 +2,18 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - show screen size</title>
-  
-
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#808080">
+  <!-- Windows Phone (microsoft) -->
+  <meta name="msapplication-navbutton-color" content="#808080">
+  <!-- iOS Safari (apple) -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="#808080">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>show screen size</title>
 </head>
-<body>
-<!-- partial:index.partial.html -->
-<!-- Chrome, Firefox OS and Opera -->
-<meta name="theme-color" content="#808080">
-<!-- Windows Phone (microsoft) -->
-<meta name="msapplication-navbutton-color" content="#808080">
-<!-- iOS Safari (apple) -->
-<meta name="apple-mobile-web-app-status-bar-style" content="#808080">
-<body onload="screensize()">
-<p id="demo"></p>
+<body onload="screensize()" style="margin:0; padding:1em; background:white;">
+  <p id="demo"></p>
 </body>
-<!-- partial -->
-  <script  src="./script.js"></script>
-
-</body>
+<script  src="./script.js"></script>
 </html>
